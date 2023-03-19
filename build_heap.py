@@ -32,7 +32,7 @@ def main():
         data = list(map(int, input().split()))
     elif "F" in input_method:
         file = input().strip()
-        path= "./test/"+file
+        path= "./tests/"+file
         with open(path, 'r', encoding='utf-8') as file:
             n = int(file.readline())
             data = list(map(int, file.readline().split()))
